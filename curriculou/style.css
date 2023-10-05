@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 70px;
+}
+
+.sobre {
+    width: 100%;
+    height: 500px;
+    padding: 50px 0px;
+}
+
+.itens-sobre {
+    width: 50%;
+    float: left;
+    padding: 100px 60px;
+}
+
+.itens-sobre h1 {
+    font-size: 50px;
+}
+
+.itens-sobre p {
+    padding: 40px 0;
+}
+
+.img-sobre {
+    width: 50%;
+    float: right;
+}
+
+.img-sobre img {
+    width: 70%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    margin-left: 100px;
+    border: solid 6px black;
+}
