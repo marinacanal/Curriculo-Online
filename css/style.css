@@ -3,6 +3,7 @@ body{
     color: white;
     flex: wrap;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to top, #424242, #1f1f1f);
 }
 
 nav{
@@ -10,7 +11,7 @@ nav{
 }
 
 li a.nav-link{
-    color: rgb(192, 192, 192);
+    color: rgb(212, 212, 212);
     font-size: 25px;
 }
 
@@ -20,7 +21,7 @@ li a.nav-link{
     transition: 0.3s all ease-in;
 }
 
-.section{
+.container{
     display: block;
 }
 
@@ -38,34 +39,45 @@ h3{
     font-size: 150%;
 }
 
+h5{
+    color: palevioletred;
+    font-weight: bold;
+    padding: 0.8%;
+}
+
+p{
+    color: rgb(212, 212, 212);
+    font-size: 110%;
+    text-align: justify;
+}
+
 .sobre{
     width: 100%;
     height: 800px;
-    padding-top: 7%;
 }
 
 .itens-sobre{
     width: 50%;
     float: left;
+    padding-top: 7%;
 }
 
 .itens-sobre h1{
-    padding-top: 20%;
     padding-bottom: 1%;
 }
 
 .itens-sobre p{
     padding: 40px 0;
-    color: rgb(192, 192, 192);
 }
 
 .img-sobre{
     width: 50%;
     float: right;
+    padding-top: 9%;
 }
 
 .img-sobre img{
-    width: 450px;
+    width: 470px;
     border-radius: 50%;
     aspect-ratio: 1/1;
     margin-left: 100px;
@@ -74,7 +86,7 @@ h3{
 
 .formacao{
     width: 100%;
-    height: 700px;
+    height: 880px;
 }
 
 .itens-form{
@@ -83,7 +95,7 @@ h3{
 }
 
 .curso{
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 .option-curso{
@@ -93,30 +105,30 @@ h3{
     text-align: center;
     background-color: rgb(31, 31, 31);
     border-left: 4px solid rgb(31,31,31);
-    padding: 30px 5px 25px 15px;
+    padding: 20px 5px 10px 15px;
     border-radius: 20px;
 }
 
 .curso h3{
-    color: palevioletred;
+    color: white;
     font-weight: bold;
+    padding: 15px;
 }
 
-.activeCurso{
+.activeCurso h3{
     border-left: 4px solid palevioletred;
-    color: white;
+    color: palevioletred;
 }
 
 .form-descricao{
     width: 50%;
     float: right;
     padding-top: 12%;
-    color: rgb(192, 192, 192);
 }
 
 .habilidades{
     width: 100%;
-    height: 700px;
+    height: 780px;
 }
 
 .itens-hab{
@@ -124,14 +136,18 @@ h3{
     float: left;
 }
 
+.icons{
+    padding-top: 6%;
+}
+
 .col{
     width: 25%;
     flex-grow: 1;
     height: 150px;
-    background-color: rgb(31,31,31);
+    background-color: rgb(49, 49, 49);
     position: relative;
-    border: 1px solid  rgb(15, 15, 15);
-    border-radius: 4px;
+    border: 2px solid  rgb(15, 15, 15);
+    border-radius: 15px;
     transition: 1s all ease;
     margin: 15px 15px;
 }
@@ -151,8 +167,76 @@ h3{
     padding-top: 3%;
 }
 
+.interesses{
+    width: 100%;
+    height: 420px;
+    text-align: left;
+}
+
 .contato{
     width: 100%;
-    height: 500px;
+    height: 200px;
+}
+
+.contato h1{
+    float: left;
+}
+
+.social {
+    padding-left: 0px;
+    float: right;
+}
+
+.media {
+    color: rgba(245, 238, 240, 0.575);
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 1px solid rgba(206, 130, 156, 0.575);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s;
+    font-size: 60px;
     text-align: center;
+    &:hover {
+        color: rgb(241, 236, 239);
+        border: 1px solid palevioletred;
+    }
+}
+
+.social:hover > .media {
+    opacity: 0.5;
+}
+  
+.social:hover > .media:hover {
+    opacity: 1;
+}
+
+.social li::after{
+    pointer-events: none;
+}
+
+@media(max-width: 799px){
+    li a.nav-link{
+        font-size: 20px;
+    }
+    .itens-sobre, .img-sobre, .itens-form, .form-descricao, .itens-hab{
+        width: 100%;
+    }
+    .img-sobre{
+        margin-top: -5%;
+        padding-bottom: 15%;
+    }
+    .itens-hab{
+        padding-top: 50px;
+    }
+    .habilidades{
+        height: 1850px;
+    }
+    .social{
+        float: left;
+    }
 }
