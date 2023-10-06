@@ -220,6 +220,12 @@ p{
 }
 
 @media(max-width: 800px){
+    h1, h2, h3, p{
+        padding: 0 10px 0 10px;
+    }
+    .itens-sobre h1, .itens-sobre h3{
+        padding: 0;
+    }
     li a.nav-link{
         font-size: 18px;
     }
@@ -248,5 +254,9 @@ p{
         height: 60px;
         line-height: 60px;
         font-size: 35px;
+    }
+    .postgres img{
+        width: 22%;
+        padding-top: 7.5%;
     }
 }
