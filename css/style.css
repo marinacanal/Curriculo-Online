@@ -141,6 +141,11 @@ p{
     float: left;
 }
 
+.itens-hab p{
+    padding-right: 20%;
+    padding-top: 5%;
+}
+
 .icons{
     padding-top: 6%;
 }
@@ -247,8 +252,8 @@ p{
         width: 100%;
     }
     .img-sobre{
-        margin-top: -2%;
-        padding-bottom: 15%;
+        margin-top: -10%;
+        padding-bottom: 20%;
         display: flex;
         text-align: center;
     }
@@ -257,7 +262,7 @@ p{
         margin: auto;
     }
     .option-curso{
-        width: 80%;
+        width: 85%;
     }
     .form-descricao p{
         padding-bottom: 10px;;
@@ -265,6 +270,9 @@ p{
     .itens-hab{
         padding-top: 50px;
         padding-bottom: -30px;
+    }
+    .itens-hab p{
+        padding: 10px;
     }
     .habilidades{
         height: auto;
@@ -288,8 +296,8 @@ p{
         height: 55%;
     }
     .postgres img{
-        width: 20%;
-        height: 55%;
+        width: 5%;
+        height: 15%;
     }
     .interesses, .contato{
         height: auto;
