@@ -158,7 +158,7 @@ p{
     border: 2px solid  rgb(15, 15, 15);
     border-radius: 15px;
     transition: 1s all ease;
-    margin: 15px 15px;
+    margin: 2.5% 2.5%;
     display: flex;
     text-align: justify;
 }
@@ -269,7 +269,6 @@ p{
     }
     .itens-hab{
         padding-top: 50px;
-        padding-bottom: -30px;
     }
     .itens-hab p{
         padding: 10px;
@@ -277,6 +276,21 @@ p{
     .habilidades{
         height: auto;
         padding-top: 0;
+        padding-bottom: 60px;
+    }
+    .icons{
+        padding-top: 0;
+    }
+    .col{
+        width: 25%;
+        height: 80px;
+    }
+    .col img{
+        width: 25%;
+        height: 42px;
+    }
+    .postgres img{
+        width: 17%;
     }
     .social{
         float: left;
@@ -287,19 +301,10 @@ p{
         line-height: 60px;
         font-size: 35px;
     }
-    .col{
-        width: 18%;
-        height: 70px;
-    }
-    .col img{
-        width: 50%;
-        height: 55%;
-    }
-    .postgres img{
-        width: 5%;
-        height: 15%;
-    }
     .interesses, .contato{
         height: auto;
+    }
+    .interesses{
+        padding-bottom: 8%;
     }
 }
