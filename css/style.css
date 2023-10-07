@@ -255,8 +255,12 @@ p{
         line-height: 60px;
         font-size: 35px;
     }
-    .postgres img{
-        width: 22%;
-        padding-top: 7.5%;
+    .col{
+        width: 15%;
+        height: 70px;
+    }
+    .postgres img, .bootstrap img, .spring img{
+        width: 35%;
+        padding-top: 15%;
     }
 }
