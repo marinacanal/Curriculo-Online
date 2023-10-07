@@ -257,7 +257,7 @@ p{
         margin: auto;
     }
     .option-curso{
-        width: 70%;
+        width: 80%;
     }
     .form-descricao p{
         padding-bottom: 10px;;
@@ -267,7 +267,7 @@ p{
         padding-bottom: -30px;
     }
     .habilidades{
-        height: 1150px;
+        height: auto;
         padding-top: 0;
     }
     .social{
@@ -290,5 +290,8 @@ p{
     .postgres img{
         width: 20%;
         height: 55%;
+    }
+    .interesses, .contato{
+        height: auto;
     }
 }
