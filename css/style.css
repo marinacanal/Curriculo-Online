@@ -132,7 +132,7 @@ p{
 
 .habilidades{
     width: 100%;
-    height: 780px;
+    height: 750px;
 }
 
 .itens-hab{
@@ -245,7 +245,7 @@ p{
         width: 100%;
     }
     .img-sobre{
-        margin-top: -5%;
+        margin-top: -2%;
         padding-bottom: 15%;
         margin-right: 23%;
     }
@@ -273,12 +273,12 @@ p{
         font-size: 35px;
     }
     .col{
-        width: 15%;
-        height: 60px;
-        line-height: 60px;
+        width: 20%;
+        height: 70px;
+        line-height: 70px;
     }
     .postgres img, .bootstrap img, .spring img{
         width: 35%;
-        padding-top: 20%;
+        padding-top: 19%;
     }
 }
