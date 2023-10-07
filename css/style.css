@@ -220,6 +220,15 @@ p{
 }
 
 @media(max-width: 800px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 23px;
+    }
     h1, h2, h3, p{
         padding: 0 10px 0 10px;
     }
@@ -242,9 +251,10 @@ p{
     }
     .itens-hab{
         padding-top: 50px;
+        padding-bottom: -30px;
     }
     .habilidades{
-        height: 1850px;
+        height: 1350px;
     }
     .social{
         float: left;
@@ -257,7 +267,7 @@ p{
     }
     .col{
         width: 15%;
-        height: 70px;
+        height: 60px;
     }
     .postgres img, .bootstrap img, .spring img{
         width: 35%;
