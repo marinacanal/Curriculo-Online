@@ -2,7 +2,6 @@ body{
     background-color: rgb(44, 44, 44);
     color: white;
     flex: wrap;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: linear-gradient(to top, #424242, #131313);
 }
 nav{
@@ -46,7 +45,7 @@ p{
 }
 .sobre{
     width: 100%;
-    height: 650px;
+    height: 550px;
     margin: 6% auto 8% auto;
 }
 .itens-sobre{
@@ -63,6 +62,7 @@ p{
     float: right;
     display: flex;
     text-align: center;
+    margin-top: -50px;
 }
 .img-sobre img{
     width: 80%;
@@ -74,7 +74,7 @@ p{
 }
 .formacao{
     width: 100%;
-    height: 960px;
+    height: 700px;
 }
 .itens-form{
     width: 50%;
@@ -106,7 +106,7 @@ p{
 .form-descricao{
     width: 50%;
     float: right;
-    padding-top: 12%;
+    padding-top: 10%;
 }
 .form-descricao p{
     padding-bottom: 50px;
@@ -194,7 +194,7 @@ p{
     pointer-events: none;
 }
 
-@media(max-width: 1400px){
+@media(max-width: 1360px){
     h1{
         font-size: 38px;
     }
